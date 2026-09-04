@@ -1,0 +1,16 @@
+site_name: My site1
+theme:
+  name: material
+markdown_extensions:
+  - attr_list
+  - md_in_html
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+nav:
+  - 首页: index.md
+  - 快速上手: quickstart.md
+  - 软件功能说明: function.md
+  - 高级配置: config.md
