@@ -17,4 +17,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         ...       # Other markdown pages, images and other files.
 
 1、如何记录笔记2
-![图片说明文字](assets/1.jpg)
+![图片说明文字](assets/1.png)
