@@ -1,6 +1,8 @@
 site_name: My site1
 theme:
   name: material
+  features:
+    - lazy_loading
 markdown_extensions:
   - attr_list
   - md_in_html
@@ -11,6 +13,8 @@ plugins:
         - en
 nav:
   - 首页: index.md
+  - mkdocs使用技巧: mkdocs.md
   - 快速上手: quickstart.md
   - 软件功能说明: function.md
   - 高级配置: config.md
+
