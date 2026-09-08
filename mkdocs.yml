@@ -13,7 +13,8 @@ plugins:
         - en
 nav:
   - 首页: index.md
-  - mkdocs使用技巧: mkdocs.md
+  - mkdocs: mkdocs.md
+  - github: github.md
   - 快速上手: quickstart.md
   - 软件功能说明: function.md
   - 高级配置: config.md

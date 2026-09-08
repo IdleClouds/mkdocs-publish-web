@@ -1,6 +1,7 @@
 # 使用技巧
 
-1、层级可通过多个#区分，共6层
+1、层级可通过多个#区分，共6层<br/>
+
 ```bash
 # 一级标题
 ## 二级标题
@@ -11,13 +12,15 @@
 ```
 
 2、折叠块
+
 ```bash
 <details>
 <summary>点击展开详情</summary>
 内容写在这里
 </details>
 ```
-3、图片<br/>
+3、图片
+
 (1)、语法
 ```bash
 ![图片描述文字](图片相对路径 "鼠标悬浮提示文字")
@@ -46,9 +49,7 @@ docs/
 2、git commit -m "docs:更新文档内容"
 3、git push origin main
 再执行部署命令
-4、mkdosc gh-deploy --clean
-
-
+4、mkdocs gh-deploy --clean
 ```
 
 
