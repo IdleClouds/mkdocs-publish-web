@@ -34,6 +34,7 @@ docs/
     ├── github/    # github.md专属配图
     └── common/    # 全局公用截图
 ```
+
 （3）、图片命名
 ```bash
 1、全部小写
