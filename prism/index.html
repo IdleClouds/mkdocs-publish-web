@@ -606,10 +606,29 @@
 <p>容器配置入口，继承PrismApplication</p>
 <h2 id="viewviewmodel">view和viewModel</h2>
 <h2 id="_2">区域</h2>
+<p>是Shell或者父视图上预留的一块UI占位区域，是用来动态挂载/卸载不同模块的View，通过IRegionManager来管理<br/>
+1、Xaml定义Region</p>
+<pre><code class="language-bash">&lt;!-- Shell主窗口Xaml --&gt;
+&lt;Window xmlns:prism=&quot;http://prismlibrary.com/&quot;&gt;
+    &lt;DockPanel&gt;
+        &lt;!-- 顶部菜单区域 --&gt;
+        &lt;ContentControl DockPanel.Dock=&quot;Top&quot; prism:RegionManager.RegionName=&quot;MenuRegion&quot;/&gt;
+        &lt;!-- 左侧导航树区域 --&gt;
+        &lt;ContentControl DockPanel.Dock=&quot;Left&quot; prism:RegionManager.RegionName=&quot;LeftNavRegion&quot;/&gt;
+        &lt;!-- 主内容区域（最常用，放业务页面） --&gt;
+        &lt;ContentControl prism:RegionManager.RegionName=&quot;MainContentRegion&quot;/&gt;
+        &lt;!-- 底部状态栏 --&gt;
+        &lt;ContentControl DockPanel.Dock=&quot;Bottom&quot; prism:RegionManager.RegionName=&quot;StatusRegion&quot;/&gt;
+    &lt;/DockPanel&gt;
+&lt;/Window&gt;
+</code></pre>
 <h2 id="_3">模块化</h2>
 <p>1、两个重要的接口<br/> 
 IContainerProvider 解析模块<br/>
-IContainerRegistry 注册模块<br/> </p>
+IContainerRegistry 注册模块<br/> 
+2、常见的问题总结<br/> 
+(1)、导航找不到页面，检查模块视图名称有没有写错<br/> 
+(2)、</p>
 <h2 id="-">消息对象(发布-订阅)</h2>
 <h2 id="_4">弹窗对象</h2>
 
