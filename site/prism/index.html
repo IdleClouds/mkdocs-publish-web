@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../mkdocs/">
+        <link rel="prev" href="../github/">
       
       
-        <link rel="next" href="../prism/">
+        <link rel="next" href="../quickstart/">
       
       
         
@@ -23,7 +23,7 @@
     
     
       
-        <title>github - My site1</title>
+        <title>prism - My site1</title>
       
     
     
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              github
+              prism
             
           </span>
         </div>
@@ -247,19 +247,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../github/" class="md-nav__link">
         
   
   
@@ -275,7 +266,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -284,10 +274,37 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../prism/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    prism
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -303,6 +320,92 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ioc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IOC容器
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viewviewmodel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        view和viewModel
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        区域
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        模块化
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        消息对象(发布-订阅)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        弹窗对象
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -408,6 +511,80 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ioc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IOC容器
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viewviewmodel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        view和viewModel
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        区域
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        模块化
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        消息对象(发布-订阅)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        弹窗对象
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -424,30 +601,17 @@
 
 
 <h1 id="_1">使用技巧</h1>
-<p>1、仓库命名规范</p>
-<pre><code class="language-bash">1、全部小写
-2、单词分隔用-
-3、区分类型：业务项目/组件库/工具脚本/文档/Demo
-分隔符统一规则：仓库名= - ；分支名= / ；tag版本号= v主.次.修订
-</code></pre>
-<p>2、通过git上传源码到仓库</p>
-<pre><code class="language-bash">第一次上传：
-1、新建.gitignore文件，记录不需要上传的文件夹或者类型文件
-2、git init    #初始化本地git仓库，项目根目录下下生成.git文件夹
-3、git add .   #扫描整个项目除了忽略的文件，把剩余加入暂存区
-4、git commit -m &quot;备注内容&quot;   #把暂存区的文件保存成一次本地版本快照，存在.git仓库里
-5、git remote add origin https://github.com/用户名/仓库名.git  #绑定远程仓库地址
-6、git push -u origin master或者main
-
-后续更新：
-1、git add .
-2、git commit -m &quot;更新内容&quot;
-3、git push
-
-备注:
-1、git branch -M main #修改本地master名字为main
-
-</code></pre>
+<h2 id="ioc">IOC容器</h2>
+<p>实现依赖注入(DIP的核心机制,用于管理组件生命周期、解耦服务依赖并支持模块化开发，默认支持多种容器（如Unity、DryIoc）)</p>
+<p>容器配置入口，继承PrismApplication</p>
+<h2 id="viewviewmodel">view和viewModel</h2>
+<h2 id="_2">区域</h2>
+<h2 id="_3">模块化</h2>
+<p>1、两个重要的接口<br/> 
+IContainerProvider 解析模块<br/>
+IContainerRegistry 注册模块<br/> </p>
+<h2 id="-">消息对象(发布-订阅)</h2>
+<h2 id="_4">弹窗对象</h2>
 
 
 
