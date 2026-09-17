@@ -6,6 +6,11 @@
 
 ## view和viewModel
 
+1、View注册方式
+```bash
+ containerRegistry.RegisterForNavigation<SystemSettingView>();
+```
+
 ## 区域
 是Shell或者父视图上预留的一块UI占位区域，是用来动态挂载/卸载不同模块的View，通过IRegionManager来管理<br/>
 1、Xaml定义Region

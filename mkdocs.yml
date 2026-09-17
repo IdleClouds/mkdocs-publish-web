@@ -16,6 +16,10 @@ nav:
   - mkdocs: mkdocs.md
   - github: github.md
   - prism: prism.md
+  - 小学:
+      - 数学:
+          - 二年级: math-second.md
+
   - 快速上手: quickstart.md
   - 软件功能说明: function.md
   - 高级配置: config.md
