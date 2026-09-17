@@ -18,7 +18,9 @@ nav:
   - prism: prism.md
   - 小学:
       - 数学:
-          - 二年级: math-second.md
+          - 二年级:
+              - 应用: math-second.md
+              - 计算秘籍: math-second-count.md
 
   - 快速上手: quickstart.md
   - 软件功能说明: function.md
